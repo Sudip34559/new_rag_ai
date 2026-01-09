@@ -1,0 +1,37 @@
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #c0aafd #2d2535;
+}
+
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2535;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0aafd;
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b59df7;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #a588f2;
+}
+
+::-webkit-scrollbar-corner {
+  background: #2d2535;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
